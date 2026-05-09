@@ -1,0 +1,161 @@
+﻿
+####################################################################################################
+# Template_Files (February 2026)
+####################################################################################################
+
+[1] Running engine fill...
+  [  5%] Loading Stores Recordings...
+  [ 35%] Processing rows...
+  [ 92%] Generating output file...
+  [100%] Done!
+
+  Engine Stats:
+    total_rows: 71
+    printing_rows: 12
+    lam_rows: 21
+    film_filled: 12
+    fresh1_filled: 13
+    fresh2_filled: 8
+    adh_filled: 21
+    hard_filled: 21
+    sol_filled: 6
+    errors: 0
+    skipped: 38
+
+[2] Loading filled output and ground truth...
+  Filled rows: 74, GT rows: 75
+
+[3] Comparing filled values vs ground truth...
+
+====================================================================================================
+  RESULTS: Template_Files (February 2026)
+====================================================================================================
+
+  Column           Match  Mismatch  GT Only  Eng Only  Empty   Accuracy
+  --------------- ------ --------- -------- --------- ------ ----------
+  Film_MR             12         0        0         0      0     100.0%
+  Film_Rate           10         2        0         0      0      83.3%
+  Film_Value          10         2        0         0      0      83.3%
+  Fresh1_MR           13         0        0         0      8     100.0%
+  Fresh1_Rate         11         2        0         0      8      84.6%
+  Fresh1_Value        11         2        0         0      8      84.6%
+  Fresh2_MR            7         1        0         0     13      87.5%
+  Fresh2_Rate          8         0        0         0     13     100.0%
+  Fresh2_Value         8         0        0         0     13     100.0%
+  Adh_Rate            21         0        0         0      0     100.0%
+  Adh_Value           21         0        0         0      0     100.0%
+  Hard_Rate           21         0        0         0      0     100.0%
+  Hard_Value          21         0        0         0      0     100.0%
+  Sol_Rate             6         0        0         0     15     100.0%
+  Sol_Value            6         0        0         0     15     100.0%
+
+  OVERALL: 186/195 (95.4%) match, 9 mismatches, 0 missing
+
+  --- ALL MISMATCHES (9) ---
+
+  [Fresh1_Rate] (2 issues)
+    Row  42: GT=      4.2200 ENG=      4.2983 [1.9%] | Mat=PET, Mic=12.0, Size=1197.0
+    Row  43: GT=      4.3500 ENG=      4.2983 [1.2%] | Mat=PET, Mic=12.0, Size=1197.0
+
+  [Fresh1_Value] (2 issues)
+    Row  42: GT=   8229.0000 ENG=   8381.6887 [1.9%] | Mat=PET, Mic=12.0, Size=1197.0
+    Row  43: GT=  14360.1267 ENG=  14189.5543 [1.2%] | Mat=PET, Mic=12.0, Size=1197.0
+
+  [Film_Rate] (2 issues)
+    Row  45: GT=      4.5467 ENG=      4.5880 [0.9%] | Mat=PET, Mic=12.0, Size=1063.0, Order=G00418
+    Row  46: GT=      4.5880 ENG=      4.4604 [2.8%] | Mat=PET, Mic=12.0, Size=913.0, Order=N00945
+
+  [Film_Value] (2 issues)
+    Row  45: GT=  13600.4640 ENG=  13724.0844 [0.9%] | Mat=PET, Mic=12.0, Size=1063.0, Order=G00418
+    Row  46: GT=    587.2640 ENG=    570.9311 [2.8%] | Mat=PET, Mic=12.0, Size=913.0, Order=N00945
+
+  [Fresh2_MR] (1 issues)
+    Row  54: GT=       84080 ENG= 85738/85775 [MR#] | Mat=TPE, Mic=100.0, Size=893.0
+
+####################################################################################################
+# Template2 (November 2025)
+####################################################################################################
+
+[1] Running engine fill...
+  [  5%] Loading Stores Recordings...
+  [ 35%] Processing rows...
+  [ 35%] Processed 5/425 rows...
+  [ 92%] Generating output file...
+  [100%] Done!
+
+  Engine Stats:
+    total_rows: 425
+    printing_rows: 7
+    lam_rows: 10
+    film_filled: 6
+    fresh1_filled: 7
+    fresh2_filled: 2
+    adh_filled: 9
+    hard_filled: 9
+    sol_filled: 1
+    errors: 1
+    skipped: 408
+
+[2] Loading filled output and ground truth...
+  Filled rows: 429, GT rows: 429
+
+[3] Comparing filled values vs ground truth...
+
+====================================================================================================
+  RESULTS: Template2 (November 2025)
+====================================================================================================
+
+  Column           Match  Mismatch  GT Only  Eng Only  Empty   Accuracy
+  --------------- ------ --------- -------- --------- ------ ----------
+  Film_MR              6         0        1         0      0      85.7%
+  Film_Rate            6         0        1         0      0      85.7%
+  Film_Value           6         0        1         0      0      85.7%
+  Fresh1_MR            4         3        0         0      3      57.1%
+  Fresh1_Rate          6         1        0         0      3      85.7%
+  Fresh1_Value         6         1        0         0      3      85.7%
+  Fresh2_MR            1         1        0         0      8      50.0%
+  Fresh2_Rate          1         1        0         0      8      50.0%
+  Fresh2_Value         1         1        0         0      8      50.0%
+  Adh_Rate            10         0        0         0      0     100.0%
+  Adh_Value            9         0        0         0      1     100.0%
+  Hard_Rate           10         0        0         0      0     100.0%
+  Hard_Value           9         0        0         0      1     100.0%
+  Sol_Rate             1         0        0         0      9     100.0%
+  Sol_Value            1         0        0         0      9     100.0%
+
+  OVERALL: 77/88 (87.5%) match, 8 mismatches, 3 missing
+
+  --- ALL MISMATCHES (11) ---
+
+  [Film_MR] (1 issues)
+    Row   7: GT=       83005 ENG=             [MISS] | Mat=NYLON, Mic=15.0, Size=1005.0, Order=N00694
+
+  [Film_Rate] (1 issues)
+    Row   7: GT=      7.7200 ENG=           0 [MISS] | Mat=NYLON, Mic=15.0, Size=1005.0, Order=N00694
+
+  [Film_Value] (1 issues)
+    Row   7: GT=   2397.8320 ENG=           0 [MISS] | Mat=NYLON, Mic=15.0, Size=1005.0, Order=N00694
+
+  [Fresh1_MR] (3 issues)
+    Row  17: GT=         INH ENG=       83490 [MR#] | Mat=TPE, Mic=50.0, Size=996.0
+    Row  28: GT=         INH ENG= 83904/83921 [MR#] | Mat=TPE, Mic=70.0, Size=1173.0
+    Row  50: GT=         INH ENG= 82433/84172 [MR#] | Mat=WPE, Mic=125.0, Size=933.0
+
+  [Fresh1_Rate] (1 issues)
+    Row  17: GT=      4.1951 ENG=      0.9000 [78.5%] | Mat=TPE, Mic=50.0, Size=996.0
+
+  [Fresh1_Value] (1 issues)
+    Row  17: GT=   3423.1754 ENG=    734.4000 [78.5%] | Mat=TPE, Mic=50.0, Size=996.0
+
+  [Fresh2_MR] (1 issues)
+    Row  23: GT=         INH ENG=       83893 [MR#] | Mat=TPE, Mic=60.0, Size=1238.0
+
+  [Fresh2_Rate] (1 issues)
+    Row  48: GT=      4.8708 ENG=      0.9000 [81.5%] | Mat=TPE, Mic=100.0, Size=893.0
+
+  [Fresh2_Value] (1 issues)
+    Row  48: GT=  10347.4267 ENG=   1911.9600 [81.5%] | Mat=TPE, Mic=100.0, Size=893.0
+
+####################################################################################################
+FULL COMPARISON COMPLETE
+####################################################################################################

@@ -1,0 +1,30 @@
+{
+  "metrics": {
+    "elapsed_seconds": 253.0,
+    "rmc_summary_orders": 663,
+    "mode": "scratch",
+    "jobtrack_stats": {
+      "total_rows": 3352,
+      "printing_rows": 820,
+      "lam_rows": 673,
+      "film_filled": 438,
+      "fresh1_filled": 6,
+      "fresh2_filled": 3,
+      "adh_filled": 527,
+      "hard_filled": 527,
+      "sol_filled": 192,
+      "errors": 226,
+      "skipped": 2033
+    }
+  },
+  "log": [
+    "[1/7] Filling Jobtrack with MRR data...",
+    "  Jobtrack: 3352 rows filled",
+    "[2/7] Building process sheets from Jobtrack + template...",
+    "  Built 10 indexes, 663 orders",
+    "[3/7] Computing RMC summary...",
+    "[4/7] Writing output xlsx...",
+    "[5/7] No reference for validation"
+  ],
+  "investigation": []
+}

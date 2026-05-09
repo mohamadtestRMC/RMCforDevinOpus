@@ -1,0 +1,448 @@
+{
+  "stats": {
+    "total_rows": 3352,
+    "printing_rows": 820,
+    "lam_rows": 673,
+    "film_filled": 439,
+    "fresh1_filled": 453,
+    "fresh2_filled": 174,
+    "adh_filled": 0,
+    "hard_filled": 0,
+    "sol_filled": 0,
+    "errors": 904,
+    "skipped": 2033
+  },
+  "b01077_rows": [
+    625,
+    747,
+    759,
+    1024,
+    1126
+  ],
+  "rewinding_rows_sample": [
+    14,
+    15,
+    30,
+    31,
+    92,
+    93,
+    94,
+    95
+  ],
+  "rows": {
+    "14": {
+      "sheet": {
+        "uid": "202602-0010-RP",
+        "process": "Rewinding",
+        "order": null,
+        "film_mr": null,
+        "film_rate": null,
+        "film_val": null,
+        "fresh1_mr": null,
+        "fresh1_rate": null,
+        "fresh2_mr": null,
+        "fresh2_rate": null,
+        "highlight": "00000000"
+      },
+      "log": [
+        {
+          "type": "Film",
+          "status": "SKIP",
+          "detail": "No input material name"
+        }
+      ]
+    },
+    "15": {
+      "sheet": {
+        "uid": "202602-0011-RP",
+        "process": "Rewinding",
+        "order": null,
+        "film_mr": null,
+        "film_rate": null,
+        "film_val": null,
+        "fresh1_mr": null,
+        "fresh1_rate": null,
+        "fresh2_mr": null,
+        "fresh2_rate": null,
+        "highlight": "00000000"
+      },
+      "log": [
+        {
+          "type": "Film",
+          "status": "SKIP",
+          "detail": "No input material name"
+        }
+      ]
+    },
+    "30": {
+      "sheet": {
+        "uid": "202602-0026-HR",
+        "process": "Rewinding",
+        "order": null,
+        "film_mr": null,
+        "film_rate": null,
+        "film_val": null,
+        "fresh1_mr": null,
+        "fresh1_rate": null,
+        "fresh2_mr": null,
+        "fresh2_rate": null,
+        "highlight": "00000000"
+      },
+      "log": [
+        {
+          "type": "Film",
+          "status": "SKIP",
+          "detail": "No input material name"
+        }
+      ]
+    },
+    "31": {
+      "sheet": {
+        "uid": "202602-0027-HR",
+        "process": "Rewinding",
+        "order": null,
+        "film_mr": null,
+        "film_rate": null,
+        "film_val": null,
+        "fresh1_mr": null,
+        "fresh1_rate": null,
+        "fresh2_mr": null,
+        "fresh2_rate": null,
+        "highlight": "00000000"
+      },
+      "log": [
+        {
+          "type": "Film",
+          "status": "SKIP",
+          "detail": "No input material name"
+        }
+      ]
+    },
+    "92": {
+      "sheet": {
+        "uid": "202602-0088-RP",
+        "process": "Rewinding",
+        "order": "C01529",
+        "film_mr": null,
+        "film_rate": null,
+        "film_val": null,
+        "fresh1_mr": null,
+        "fresh1_rate": null,
+        "fresh2_mr": null,
+        "fresh2_rate": null,
+        "highlight": "00FFE0E0"
+      },
+      "log": [
+        {
+          "type": "Film",
+          "status": "MISS",
+          "detail": "No MRR found for PTD PET/913/12/C01529 | Not matched keys: material"
+        }
+      ]
+    },
+    "93": {
+      "sheet": {
+        "uid": "202602-0089-RP",
+        "process": "Rewinding",
+        "order": "C01554",
+        "film_mr": null,
+        "film_rate": null,
+        "film_val": null,
+        "fresh1_mr": null,
+        "fresh1_rate": null,
+        "fresh2_mr": null,
+        "fresh2_rate": null,
+        "highlight": "00FFE0E0"
+      },
+      "log": [
+        {
+          "type": "Film",
+          "status": "MISS",
+          "detail": "No MRR found for PTD PET/913/12/C01554 | Not matched keys: material"
+        }
+      ]
+    },
+    "94": {
+      "sheet": {
+        "uid": "202602-0090-RP",
+        "process": "Rewinding",
+        "order": "H01365",
+        "film_mr": null,
+        "film_rate": null,
+        "film_val": null,
+        "fresh1_mr": null,
+        "fresh1_rate": null,
+        "fresh2_mr": null,
+        "fresh2_rate": null,
+        "highlight": "00FFE0E0"
+      },
+      "log": [
+        {
+          "type": "Film",
+          "status": "MISS",
+          "detail": "No MRR found for PTD PET/973/12/H01365 | Not matched keys: material"
+        }
+      ]
+    },
+    "95": {
+      "sheet": {
+        "uid": "202602-0091-RP",
+        "process": "Rewinding",
+        "order": "P00419",
+        "film_mr": null,
+        "film_rate": null,
+        "film_val": null,
+        "fresh1_mr": null,
+        "fresh1_rate": null,
+        "fresh2_mr": null,
+        "fresh2_rate": null,
+        "highlight": "00FFE0E0"
+      },
+      "log": [
+        {
+          "type": "Film",
+          "status": "MISS",
+          "detail": "No MRR found for PTD TPE/1313/70/P00419 | Not matched keys: material"
+        }
+      ]
+    },
+    "111": {
+      "sheet": {
+        "uid": "202602-0107-L",
+        "process": "LAM",
+        "order": "J00877",
+        "film_mr": null,
+        "film_rate": null,
+        "film_val": null,
+        "fresh1_mr": "84891/84922/85459",
+        "fresh1_rate": 3.586877522603941,
+        "fresh2_mr": null,
+        "fresh2_rate": null,
+        "highlight": "00FFE0E0"
+      },
+      "log": [
+        {
+          "type": "1st Fresh",
+          "status": "WARN",
+          "detail": "BANDERA/CYM WO# J00877 not found in Granules (current/prev)"
+        },
+        {
+          "type": "1st Fresh",
+          "status": "OK",
+          "detail": "MR#=84891/84922/85459, Rate=3.5869, Val=7417.66 [PR]"
+        },
+        {
+          "type": "Chemicals",
+          "status": "WARN",
+          "detail": "No rate for adhesive 75-300"
+        }
+      ]
+    },
+    "625": {
+      "sheet": {
+        "uid": "202602-0621-P",
+        "process": "Printing",
+        "order": "B01077",
+        "film_mr": "84526/85460",
+        "film_rate": 4.554746664470433,
+        "film_val": 1102.704167468292,
+        "fresh1_mr": null,
+        "fresh1_rate": null,
+        "fresh2_mr": null,
+        "fresh2_rate": null,
+        "highlight": "00000000"
+      },
+      "log": [
+        {
+          "type": "Film",
+          "status": "OK",
+          "detail": "MR#=84526/85460, Rate=4.5547, Value=1102.70"
+        }
+      ]
+    },
+    "747": {
+      "sheet": {
+        "uid": "202602-0743-P",
+        "process": "Printing",
+        "order": "B01077",
+        "film_mr": "85460",
+        "film_rate": 4.587,
+        "film_val": 1055.01,
+        "fresh1_mr": null,
+        "fresh1_rate": null,
+        "fresh2_mr": null,
+        "fresh2_rate": null,
+        "highlight": "00000000"
+      },
+      "log": [
+        {
+          "type": "Film",
+          "status": "OK",
+          "detail": "MR#=85460, Rate=4.5870, Value=1055.01"
+        }
+      ]
+    },
+    "759": {
+      "sheet": {
+        "uid": "202602-0755-RP",
+        "process": "Rewinding",
+        "order": "B01077",
+        "film_mr": null,
+        "film_rate": null,
+        "film_val": null,
+        "fresh1_mr": null,
+        "fresh1_rate": null,
+        "fresh2_mr": null,
+        "fresh2_rate": null,
+        "highlight": "00FFE0E0"
+      },
+      "log": [
+        {
+          "type": "Film",
+          "status": "WARN",
+          "detail": "Qty not matched in Store (formula: =114+154) | Not matched keys: material"
+        },
+        {
+          "type": "Film",
+          "status": "MISS",
+          "detail": "No MRR found for PTD PET/1238/12/B01077 | Not matched keys: material"
+        }
+      ]
+    },
+    "907": {
+      "sheet": {
+        "uid": "202602-0903-L",
+        "process": "LAM",
+        "order": "N00764",
+        "film_mr": null,
+        "film_rate": null,
+        "film_val": null,
+        "fresh1_mr": null,
+        "fresh1_rate": null,
+        "fresh2_mr": "84511/84876",
+        "fresh2_rate": 0.9,
+        "highlight": "00FFE0E0"
+      },
+      "log": [
+        {
+          "type": "2nd Fresh",
+          "status": "OK",
+          "detail": "MR#=84511/84876, Rate=0.9000 [PR]"
+        },
+        {
+          "type": "Chemicals",
+          "status": "WARN",
+          "detail": "No rate for adhesive S631"
+        }
+      ]
+    },
+    "1024": {
+      "sheet": {
+        "uid": "202602-1019-L",
+        "process": "LAM",
+        "order": "B01077",
+        "film_mr": null,
+        "film_rate": null,
+        "film_val": null,
+        "fresh1_mr": 85039,
+        "fresh1_rate": 5.32,
+        "fresh2_mr": null,
+        "fresh2_rate": null,
+        "highlight": "00FFE0E0"
+      },
+      "log": [
+        {
+          "type": "1st Fresh",
+          "status": "OK",
+          "detail": "MR#=85039, Rate=5.3200, Val=547.96 [PR]"
+        },
+        {
+          "type": "Chemicals",
+          "status": "WARN",
+          "detail": "No rate for adhesive 75-300"
+        }
+      ]
+    },
+    "1025": {
+      "sheet": {
+        "uid": "202602-1020-L",
+        "process": "LAM",
+        "order": "N00764",
+        "film_mr": null,
+        "film_rate": null,
+        "film_val": null,
+        "fresh1_mr": null,
+        "fresh1_rate": null,
+        "fresh2_mr": 84511,
+        "fresh2_rate": 0.9,
+        "highlight": "00FFE0E0"
+      },
+      "log": [
+        {
+          "type": "2nd Fresh",
+          "status": "OK",
+          "detail": "MR#=84511, Rate=0.9000 [PR]"
+        },
+        {
+          "type": "Chemicals",
+          "status": "WARN",
+          "detail": "No rate for adhesive S631"
+        }
+      ]
+    },
+    "1126": {
+      "sheet": {
+        "uid": "202602-1121-L",
+        "process": "LAM",
+        "order": "B01077",
+        "film_mr": null,
+        "film_rate": null,
+        "film_val": null,
+        "fresh1_mr": 85039,
+        "fresh1_rate": 5.32,
+        "fresh2_mr": null,
+        "fresh2_rate": null,
+        "highlight": "00FFE0E0"
+      },
+      "log": [
+        {
+          "type": "1st Fresh",
+          "status": "OK",
+          "detail": "MR#=85039, Rate=5.3200, Val=2020.54 [PR]"
+        },
+        {
+          "type": "Chemicals",
+          "status": "WARN",
+          "detail": "No rate for adhesive 75-300"
+        }
+      ]
+    },
+    "2350": {
+      "sheet": {
+        "uid": "202602-2344-L",
+        "process": "LAM",
+        "order": "N01067",
+        "film_mr": null,
+        "film_rate": null,
+        "film_val": null,
+        "fresh1_mr": 81732,
+        "fresh1_rate": 5.325209580838322,
+        "fresh2_mr": null,
+        "fresh2_rate": null,
+        "highlight": "00FFE0E0"
+      },
+      "log": [
+        {
+          "type": "1st Fresh",
+          "status": "OK",
+          "detail": "MR#=81732, Rate=5.3252, Val=532.52 [PR]"
+        },
+        {
+          "type": "Chemicals",
+          "status": "WARN",
+          "detail": "No rate for adhesive 75-300"
+        }
+      ]
+    }
+  }
+}

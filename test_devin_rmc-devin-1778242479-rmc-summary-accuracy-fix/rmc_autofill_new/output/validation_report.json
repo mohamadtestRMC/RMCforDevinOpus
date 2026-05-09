@@ -1,0 +1,389 @@
+{
+  "metrics": {
+    "rmc_summary_orders": 622,
+    "elapsed_seconds": 62984.2,
+    "total_checks": 11818,
+    "exact_matches": 11543,
+    "close_matches_lt1": 8,
+    "mismatches_gt1": 267,
+    "accuracy_pct": 97.67,
+    "close_accuracy_pct": 97.74,
+    "top_mismatches": [
+      {
+        "order": "H01293",
+        "column": "Other Film Value (AED)",
+        "computed": 301137.9928,
+        "reference": 0.0,
+        "diff": 301137.9928
+      },
+      {
+        "order": "H01293",
+        "column": "Total Cost",
+        "computed": 450427.7498,
+        "reference": 149289.7569,
+        "diff": 301137.9928
+      },
+      {
+        "order": "L00334",
+        "column": "Total Cost",
+        "computed": 23663.8726,
+        "reference": 513.5692,
+        "diff": 23150.3034
+      },
+      {
+        "order": "L00334",
+        "column": "Lam Fresh Mat Value (AED)",
+        "computed": 23460.75,
+        "reference": 3439.108,
+        "diff": 20021.642
+      },
+      {
+        "order": "H01293",
+        "column": "Other Film Input (Kgs)",
+        "computed": 17017.22,
+        "reference": 0.0,
+        "diff": 17017.22
+      },
+      {
+        "order": "L00329",
+        "column": "Total Cost",
+        "computed": 18402.8916,
+        "reference": 29977.5225,
+        "diff": -11574.6309
+      },
+      {
+        "order": "N01004",
+        "column": "Total Cost",
+        "computed": 25164.03,
+        "reference": 33883.3584,
+        "diff": -8719.3284
+      },
+      {
+        "order": "N01005",
+        "column": "Total Cost",
+        "computed": 8719.3284,
+        "reference": 0.0,
+        "diff": 8719.3284
+      },
+      {
+        "order": "L00329",
+        "column": "Lam Fresh Mat Value (AED)",
+        "computed": 12317.7093,
+        "reference": 20721.6784,
+        "diff": -8403.9691
+      },
+      {
+        "order": "N00999",
+        "column": "Total Cost",
+        "computed": 16132.238,
+        "reference": 23674.5418,
+        "diff": -7542.3039
+      },
+      {
+        "order": "N01000",
+        "column": "Total Cost",
+        "computed": 7779.3518,
+        "reference": 237.048,
+        "diff": 7542.3039
+      },
+      {
+        "order": "N01009",
+        "column": "Total Cost",
+        "computed": 13774.2925,
+        "reference": 20879.0317,
+        "diff": -7104.7392
+      },
+      {
+        "order": "N01011",
+        "column": "Total Cost",
+        "computed": 13467.368,
+        "reference": 20311.5621,
+        "diff": -6844.1941
+      },
+      {
+        "order": "N01012",
+        "column": "Total Cost",
+        "computed": 7077.6471,
+        "reference": 233.453,
+        "diff": 6844.1941
+      },
+      {
+        "order": "64478",
+        "column": "Total Cost",
+        "computed": 6420.7148,
+        "reference": 0.0,
+        "diff": 6420.7148
+      },
+      {
+        "order": "N00938",
+        "column": "Opening WIP Value (AED)",
+        "computed": 11257.8977,
+        "reference": 17147.1268,
+        "diff": -5889.229
+      },
+      {
+        "order": "N00938",
+        "column": "Total Cost",
+        "computed": 11257.8977,
+        "reference": 17147.1268,
+        "diff": -5889.229
+      },
+      {
+        "order": "N00939",
+        "column": "Opening WIP Value (AED)",
+        "computed": 6032.8827,
+        "reference": 143.6537,
+        "diff": 5889.229
+      },
+      {
+        "order": "N00939",
+        "column": "Total Cost",
+        "computed": 5889.229,
+        "reference": 0.0,
+        "diff": 5889.229
+      },
+      {
+        "order": "N00943",
+        "column": "Opening WIP Value (AED)",
+        "computed": 10685.2984,
+        "reference": 16453.2369,
+        "diff": -5767.9386
+      },
+      {
+        "order": "N00943",
+        "column": "Total Cost",
+        "computed": 10685.2984,
+        "reference": 16453.2369,
+        "diff": -5767.9386
+      },
+      {
+        "order": "N00944",
+        "column": "Opening WIP Value (AED)",
+        "computed": 5767.9386,
+        "reference": 0.0,
+        "diff": 5767.9386
+      },
+      {
+        "order": "N00944",
+        "column": "Total Cost",
+        "computed": 5767.9386,
+        "reference": 0.0,
+        "diff": 5767.9386
+      },
+      {
+        "order": "N01010",
+        "column": "Total Cost",
+        "computed": 5959.1652,
+        "reference": 224.3248,
+        "diff": 5734.8405
+      },
+      {
+        "order": "N01004",
+        "column": "Lam Fresh Mat Value (AED)",
+        "computed": 14252.6828,
+        "reference": 19709.3228,
+        "diff": -5456.64
+      },
+      {
+        "order": "N01005",
+        "column": "Lam Fresh Mat Value (AED)",
+        "computed": 5456.64,
+        "reference": 0.0,
+        "diff": 5456.64
+      },
+      {
+        "order": "N00999",
+        "column": "Lam Fresh Mat Value (AED)",
+        "computed": 10026.432,
+        "reference": 15114.4129,
+        "diff": -5087.9809
+      },
+      {
+        "order": "N01000",
+        "column": "Lam Fresh Mat Value (AED)",
+        "computed": 5762.785,
+        "reference": 674.8041,
+        "diff": 5087.9809
+      },
+      {
+        "order": "N01011",
+        "column": "Lam Fresh Mat Value (AED)",
+        "computed": 8516.1,
+        "reference": 12848.269,
+        "diff": -4332.169
+      },
+      {
+        "order": "N01012",
+        "column": "Lam Fresh Mat Value (AED)",
+        "computed": 4654.895,
+        "reference": 322.726,
+        "diff": 4332.169
+      },
+      {
+        "order": "L00332",
+        "column": "Total Cost",
+        "computed": 24647.4427,
+        "reference": 28959.2658,
+        "diff": -4311.8231
+      },
+      {
+        "order": "L00334",
+        "column": "Lam Fresh Mat (Kgs)",
+        "computed": 5000.7,
+        "reference": 726.7639,
+        "diff": 4273.9361
+      },
+      {
+        "order": "L00330",
+        "column": "Total Cost",
+        "computed": 24884.736,
+        "reference": 29151.9416,
+        "diff": -4267.2055
+      },
+      {
+        "order": "64478",
+        "column": "Lam Fresh Mat Value (AED)",
+        "computed": 4189.5082,
+        "reference": 0.0,
+        "diff": 4189.5082
+      },
+      {
+        "order": "L00331",
+        "column": "Total Cost",
+        "computed": 24402.0065,
+        "reference": 28562.3373,
+        "diff": -4160.3308
+      },
+      {
+        "order": "C01341",
+        "column": "Total Cost",
+        "computed": 12120.1114,
+        "reference": 16241.2065,
+        "diff": -4121.0951
+      },
+      {
+        "order": "L00328",
+        "column": "Total Cost",
+        "computed": 25335.4404,
+        "reference": 29448.0408,
+        "diff": -4112.6004
+      },
+      {
+        "order": "L00333",
+        "column": "Total Cost",
+        "computed": 24660.898,
+        "reference": 28725.04,
+        "diff": -4064.142
+      },
+      {
+        "order": "C01342",
+        "column": "Total Cost",
+        "computed": 3920.9503,
+        "reference": -0.0,
+        "diff": 3920.9503
+      },
+      {
+        "order": "N01009",
+        "column": "Lam Fresh Mat Value (AED)",
+        "computed": 8725.828,
+        "reference": 12563.5532,
+        "diff": -3837.7252
+      },
+      {
+        "order": "N01010",
+        "column": "Lam Fresh Mat Value (AED)",
+        "computed": 4625.985,
+        "reference": 788.2598,
+        "diff": 3837.7252
+      },
+      {
+        "order": "L00332",
+        "column": "Lam Fresh Mat Value (AED)",
+        "computed": 16558.2729,
+        "reference": 20287.3721,
+        "diff": -3729.0992
+      },
+      {
+        "order": "L00330",
+        "column": "Lam Fresh Mat Value (AED)",
+        "computed": 17038.3503,
+        "reference": 20728.8618,
+        "diff": -3690.5115
+      },
+      {
+        "order": "L00331",
+        "column": "Lam Fresh Mat Value (AED)",
+        "computed": 15825.1403,
+        "reference": 19423.2208,
+        "diff": -3598.0805
+      },
+      {
+        "order": "L00328",
+        "column": "Lam Fresh Mat Value (AED)",
+        "computed": 16475.4939,
+        "reference": 20032.2945,
+        "diff": -3556.8006
+      },
+      {
+        "order": "C01339",
+        "column": "Total Cost",
+        "computed": 12261.6911,
+        "reference": 15642.0178,
+        "diff": -3380.3267
+      },
+      {
+        "order": "C01340",
+        "column": "Total Cost",
+        "computed": 3177.8945,
+        "reference": -0.0,
+        "diff": 3177.8945
+      },
+      {
+        "order": "E00794",
+        "column": "Total Cost",
+        "computed": 6357.4044,
+        "reference": 8871.8868,
+        "diff": -2514.4824
+      },
+      {
+        "order": "E00795",
+        "column": "Total Cost",
+        "computed": 2377.2402,
+        "reference": -0.0,
+        "diff": 2377.2402
+      },
+      {
+        "order": "L00333",
+        "column": "Opening WIP Value (AED)",
+        "computed": 8237.6438,
+        "reference": 10536.2696,
+        "diff": -2298.6258
+      }
+    ]
+  },
+  "log": [
+    "[1/7] Opening filled reference...",
+    "[2/7] Reading all sheets...",
+    "  BFL: 139 rows, cols: 22",
+    "  Print: 383 rows, cols: 29",
+    "  Lam: 634 rows, cols: 85",
+    "  Slit: 488 rows, cols: 29",
+    "  Bag&Pouch: 80 rows, cols: 33",
+    "  Spout&Valve: 1 rows, cols: 44",
+    "  PTR Rew: 160 rows, cols: 38",
+    "  HCI Rew: 120 rows, cols: 20",
+    "  Embossing: 6 rows, cols: 26",
+    "  Printing Work: 442 rows, cols: 34",
+    "  OPN_WIP: 211 rows, cols: 11",
+    "  CLS_WIP: 244 rows, cols: 12",
+    "  FG: 394 rows",
+    "  RMC summary ref: 622 rows",
+    "[3/7] Computing RMC summary...",
+    "  Computed 622 RMC summary rows",
+    "[4/7] Writing output xlsx...",
+    "  Written: c:\\Users\\mohamad.al\\OneDrive - AL KHAYYAT INVESTMENTS\\Desktop\\IPP\\rmc_autofill_new\\output\\rmc_output.xlsx",
+    "[5/7] Validating against reference...",
+    "  Validation: 11543/11818 exact (97.7%), 8 close, 267 mismatches",
+    "[6/7] Writing report... (62984.2s elapsed)"
+  ]
+}

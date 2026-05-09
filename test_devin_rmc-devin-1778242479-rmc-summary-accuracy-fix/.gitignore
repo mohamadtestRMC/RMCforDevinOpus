@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+env/
+*.log
+test_results_*.json
+*.pdf
+*.pkl
+# Business Excel — keep out of git (large / sensitive). Override: git add -f path.xlsx
+*.xlsx
+*.xlsm
+Template_Files/
+**/output/*.xlsx
+.streamlit/
+
+# Nested clone under ipp2_ref — never commit inner .git object store
+ipp2_ref/**/.git/
+ipp2_ref/**/_git_bundle_backup_nested_ipp/

@@ -1,0 +1,160 @@
+﻿ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ          DEEP ROW-BY-ROW GAP ANALYSIS                          Γòæ
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+
+
+##########################################################################################
+  FEBRUARY 2026 ΓÇö Mismatched Rows
+##########################################################################################
+
+==========================================================================================
+  Feb 2026 | Row 42 | UID=202602-1120-L | Process=LAM | Order=L00335
+==========================================================================================
+
+  --- Fresh1 ---
+  Material: PET | Mic: 12.0 | Size: 1197.0
+  GT: MR#=85547/85588, Rate=4.2200, Value=8229.00
+  Stores: 5 MRRs, Supplier=Standard
+    MRR 85588: Qty=1857.7, Supplier=JBF RAK
+    MRR 85547: Qty=1809.5, Supplier=JBF RAK
+    MRR 85572: Qty=991.2, Supplier=FLEX
+    MRR 85157: Qty=497.8, Supplier=FLEX
+    MRR 85226: Qty=305.0, Supplier=JBF RAK
+  Granules: WO# L00335 NOT found. Avg=4.6798
+    Available WOs: ['G00411', 'N01007', 'C01548']
+  MEGA PACK [(2026, 2)]: PET ΓåÆ 4.7848
+
+==========================================================================================
+  Feb 2026 | Row 43 | UID=202602-1232-L | Process=LAM | Order=L00335
+==========================================================================================
+
+  --- Fresh1 ---
+  Material: PET | Mic: 12.0 | Size: 1197.0
+  GT: MR#=85226/85157/85547/85572/85588, Rate=4.3500, Value=14360.13
+  Stores: 5 MRRs, Supplier=Standard
+    MRR 85588: Qty=1857.7, Supplier=JBF RAK
+    MRR 85547: Qty=1809.5, Supplier=JBF RAK
+    MRR 85572: Qty=991.2, Supplier=FLEX
+    MRR 85157: Qty=497.8, Supplier=FLEX
+    MRR 85226: Qty=305.0, Supplier=JBF RAK
+  Granules: WO# L00335 NOT found. Avg=4.6798
+    Available WOs: ['G00411', 'N01007', 'C01548']
+  MEGA PACK [(2026, 2)]: PET ΓåÆ 4.7848
+
+==========================================================================================
+  Feb 2026 | Row 45 | UID=202602-1360-P | Process=PRINTING | Order=G00418
+==========================================================================================
+  Material: PET | Mic: 12.0 | Size: 1063.0
+  GT: MR#=85157/85573/85330, Rate=4.5467, Value=13600.46
+  Stores: 3 MRRs found, Supplier=Standard
+    MRR 85573: Qty=2621.3
+    MRR 85330: Qty=253.0
+    MRR 85157: Qty=180.0
+  Granules: WO# G00418 NOT found. Available: ['G00411', 'N01007', 'C01548']
+
+==========================================================================================
+  Feb 2026 | Row 46 | UID=202602-1474-P | Process=PRINTING | Order=N00945
+==========================================================================================
+  Material: PET | Mic: 12.0 | Size: 913.0
+  GT: MR#=85572, Rate=4.5880, Value=587.26
+  Stores: 2 MRRs found, Supplier=Standard
+    MRR 85572: Qty=376.8
+    MRR 85226: Qty=200.0
+  Granules: WO# N00945 NOT found. Available: ['G00411', 'N01007', 'C01548']
+
+==========================================================================================
+  Feb 2026 | Row 54 | UID=202602-1843-L | Process=LAM | Order=N00945
+==========================================================================================
+
+  --- Fresh2 ---
+  Material: TPE | Mic: 100.0 | Size: 893.0
+  GT: MR#=84080, Rate=4.7848, Value=9926.61
+  Stores: 3 MRRs, Supplier=MEGA PACK
+    MRR 85738: Qty=1109.6, Supplier=MEGA PACK
+    MRR 85775: Qty=834.0, Supplier=MEGA PACK
+    MRR 84080: Qty=131.0, Supplier=MEGA PACK
+  Granules: WO# N00945 NOT found. Avg=4.6798
+    Available WOs: ['G00411', 'N01007', 'C01548']
+  MEGA PACK [(2026, 2)]: TPE ΓåÆ 4.7848
+
+==========================================================================================
+  Feb 2026 | Row 66 | UID=202602-2653-L | Process=LAM | Order=G00418
+==========================================================================================
+
+  --- Fresh2 ---
+  Material: TPE | Mic: 50.0 | Size: 1063.0
+  GT: MR#=85854, Rate=4.9000, Value=9592.24
+  Stores: 3 MRRs, Supplier=BANDERA
+    MRR 85854: Qty=4876.3, Supplier=ASHKAL
+    MRR 85871: Qty=2740.5, Supplier=ASHKAL
+    MRR 84713: Qty=132.0, Supplier=BANDERA
+  Granules: WO# G00418 NOT found. Avg=4.6798
+    Available WOs: ['G00411', 'N01007', 'C01548']
+  MEGA PACK [(2026, 2)]: TPE ΓåÆ 4.7848
+  Γ¥ô QUESTION: Supplier=BANDERA/CYM but GT shows MR#=85854 (not INH)
+     Should this also be INH? Or is there a condition where BANDERA doesn't get INH?
+     GT Rate=4.9000
+
+==========================================================================================
+  Feb 2026 | Row 67 | UID=202602-2769-L | Process=LAM | Order=G00418
+==========================================================================================
+
+  --- Fresh2 ---
+  Material: TPE | Mic: 50.0 | Size: 1063.0
+  GT: MR#=85854/85871, Rate=4.9000, Value=27940.29
+  Stores: 3 MRRs, Supplier=BANDERA
+    MRR 85854: Qty=4876.3, Supplier=ASHKAL
+    MRR 85871: Qty=2740.5, Supplier=ASHKAL
+    MRR 84713: Qty=132.0, Supplier=BANDERA
+  Granules: WO# G00418 NOT found. Avg=4.6798
+    Available WOs: ['G00411', 'N01007', 'C01548']
+  MEGA PACK [(2026, 2)]: TPE ΓåÆ 4.7848
+  Γ¥ô QUESTION: Supplier=BANDERA/CYM but GT shows MR#=85854/85871 (not INH)
+     Should this also be INH? Or is there a condition where BANDERA doesn't get INH?
+     GT Rate=4.9000
+
+
+##########################################################################################
+  NOVEMBER 2025 ΓÇö Mismatched Rows
+##########################################################################################
+
+==========================================================================================
+  Nov 2025 | Row 7 | UID=N0069445962ROTO INYLON100515 | Process=PRINTING | Order=N00694
+==========================================================================================
+  Material: NYLON | Mic: 15.0 | Size: 1005.0
+  GT: MR#=83005, Rate=7.7200, Value=2397.83
+  Stores: *** NO MRRs FOUND ***
+  ΓåÆ QUESTION: Why is MRR 83005 not found in Stores for NYLON/15.0/1005.0/N00694?
+  Granules: WO# N00694 NOT found. Available: ['B00942', 'G00340', 'B00969']
+
+==========================================================================================
+  Nov 2025 | Row 17 | UID=N0069445964SIMPLEX | Process=LAM | Order=N00694
+==========================================================================================
+
+  --- Fresh1 ---
+  Material: TPE | Mic: 50.0 | Size: 996.0
+  GT: MR#=INH, Rate=4.1951, Value=3423.18
+  Stores: 1 MRRs, Supplier=BANDERA
+    MRR 83490: Qty=816.0, Supplier=BANDERA
+  Granules: WO# N00694 NOT found. Avg=4.2968
+    Available WOs: ['B00942', 'G00340', 'B00969']
+  Γ£à RULE: BANDERA/CYM ΓåÆ INH is correct
+  ΓÜá∩╕Å GAP: WO# N00694 not in Granules. Need prev month file or manual rate
+  ΓåÆ Engine uses avg=4.2968, GT=4.1951, Diff=2.4%
+
+==========================================================================================
+  Nov 2025 | Row 48 | UID=N0075945979SIMPLEX II | Process=LAM | Order=N00759
+==========================================================================================
+
+  --- Fresh2 ---
+  Material: TPE | Mic: 100.0 | Size: 893.0
+  GT: MR#=84080, Rate=4.8708, Value=10347.43
+  Stores: 1 MRRs, Supplier=MEGA PACK
+    MRR 84080: Qty=2255.4, Supplier=MEGA PACK
+  Granules: WO# N00759 NOT found. Avg=4.2968
+    Available WOs: ['B00942', 'G00340', 'B00969']
+
+
+##########################################################################################
+  ANALYSIS COMPLETE
+##########################################################################################

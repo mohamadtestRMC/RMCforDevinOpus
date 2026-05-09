@@ -1,0 +1,142 @@
+﻿====================================================================================================
+INVESTIGATION: Common rules for 100% accuracy across both datasets
+====================================================================================================
+
+####################################################################################################
+# PART 1: TPE/WPE behavior across BOTH datasets
+####################################################################################################
+
+================================================================================
+  Feb 2026
+================================================================================
+  Row  21 F2: Mat=TPE   Mic=   75 Size=  1033 Order=N01002  GT_MR=85527           GT_Rate=  4.9000 Supplier=UNKNOWN      INH=False Engine_MRRs=[85528, 85527, 85570]
+  Row  22 F2: Mat=TPE   Mic=   75 Size=  1033 Order=N01002  GT_MR=85527           GT_Rate=  4.9000 Supplier=UNKNOWN      INH=False Engine_MRRs=[85528, 85527, 85570]
+  Row  23 F2: Mat=TPE   Mic=   75 Size=  1033 Order=N00940  GT_MR=85527           GT_Rate=  4.9000 Supplier=UNKNOWN      INH=False Engine_MRRs=[85527, 85528]
+  Row  52 F2: Mat=WPE   Mic=   90 Size=  1197 Order=L00335  GT_MR=85654           GT_Rate=  5.0000 Supplier=UNKNOWN      INH=False Engine_MRRs=[85682, 85719, 85696, 85697, 85737, 85695, 85654, 85694, 85660]
+  Row  53 F2: Mat=WPE   Mic=   90 Size=  1197 Order=L00335  GT_MR=85654           GT_Rate=  5.0000 Supplier=UNKNOWN      INH=False Engine_MRRs=[85682, 85719, 85696, 85697, 85737, 85695, 85654, 85694, 85660]
+  Row  54 F2: Mat=TPE   Mic=  100 Size=   893 Order=N00945  GT_MR=84080           GT_Rate=  4.7848 Supplier=MEGA PACK    INH=False Engine_MRRs=[85738, 85775, 84080]
+  Row  66 F2: Mat=TPE   Mic=   50 Size=  1063 Order=G00418  GT_MR=85854           GT_Rate=  4.9000 Supplier=BANDERA      INH=False Engine_MRRs=[85854, 85871, 84713]
+  Row  67 F2: Mat=TPE   Mic=   50 Size=  1063 Order=G00418  GT_MR=85854/85871     GT_Rate=  4.9000 Supplier=BANDERA      INH=False Engine_MRRs=[85854, 85871, 84713]
+
+================================================================================
+  Nov 2025
+================================================================================
+  Row  17 F1: Mat=TPE   Mic=   50 Size=   996 Order=N00694  GT_MR=INH             GT_Rate=  4.1951 Supplier=BANDERA      INH=True Engine_MRRs=[83490]
+  Row  22 F2: Mat=TPE   Mic=   60 Size=  1238 Order=B00942  GT_MR=                GT_Rate=  0.0000 Supplier=BANDERA      INH=False Engine_MRRs=[83893]
+  Row  23 F2: Mat=TPE   Mic=   60 Size=  1238 Order=B00942  GT_MR=INH             GT_Rate=  4.4020 Supplier=BANDERA      INH=True Engine_MRRs=[83893]
+  Row  28 F1: Mat=TPE   Mic=   70 Size=  1173 Order=G00340  GT_MR=INH             GT_Rate=  4.0373 Supplier=BANDERA      INH=True Engine_MRRs=[83904, 83921, 81490]
+  Row  48 F2: Mat=TPE   Mic=  100 Size=   893 Order=N00759  GT_MR=84080           GT_Rate=  4.8708 Supplier=MEGA PACK    INH=False Engine_MRRs=[84080]
+  Row  50 F1: Mat=WPE   Mic=  125 Size=   933 Order=B00969  GT_MR=INH             GT_Rate=  4.4512 Supplier=BANDERA      INH=True Engine_MRRs=[84172, 82433]
+
+
+####################################################################################################
+# PART 2: Supplier analysis for TPE/WPE MRRs
+####################################################################################################
+
+================================================================================
+  Feb 2026
+================================================================================
+  TPE/WPE entries in stores: 2508
+  Suppliers: ['MEGA PACK' 'BANDERA' 'AL SHARQ' 'CYM' 'NAPCO SHARQ' 'ASHKAL' 'VISHAKHA']
+
+================================================================================
+  Nov 2025
+================================================================================
+  TPE/WPE entries in stores: 11707
+  Suppliers: ['MEGA PACK' 'BANDERA' 'VISHAKHA' 'ARISTO' 'CYM' 'ASHKAL' 'NAPCO SHARQ'
+ 'ZUHAL' 'AL SHARQ']
+
+
+####################################################################################################
+# PART 3: Granules Recipe file structure
+####################################################################################################
+
+================================================================================
+  Feb 2026
+================================================================================
+  Granules rates loaded: 3 entries
+    WO#C01548 = 4.3904
+    WO#G00411 = 4.6993
+    WO#N01007 = 4.9497
+
+================================================================================
+  Nov 2025
+================================================================================
+  Granules rates loaded: 3 entries
+    WO#B00942 = 4.4020
+    WO#B00969 = 4.4512
+    WO#G00340 = 4.0373
+
+
+####################################################################################################
+# PART 4: Feb 2026 PET Film/Fresh mismatches ΓÇö GT MRR selection
+####################################################################################################
+
+  Row 42 (Fresh1): Mat=PET, Size=1197.0, Mic=12.0, Order=L00335
+  GT: MR#=85547/85588, Rate=4.2200
+  Engine: MRRs={85588: 1857.7, 85547: 1809.5, 85572: 991.2, 85157: 497.8, 85226: 305.0}, Rate=4.2983, Supplier=UNKNOWN
+  GT MRRs: ['85547', '85588']
+    MR#85547: Size=1197.0, Rate=4.2200, Qty=13571.8
+    MR#85588: Size=1197.0, Rate=4.2200, Qty=13939.2
+  Computed from GT MRRs: 4.2200 (vs GT=4.2200)
+
+  Row 43 (Fresh1): Mat=PET, Size=1197.0, Mic=12.0, Order=L00335
+  GT: MR#=85226/85157/85547/85572/85588, Rate=4.3500
+  Engine: MRRs={85588: 1857.7, 85547: 1809.5, 85572: 991.2, 85157: 497.8, 85226: 305.0}, Rate=4.2983, Supplier=UNKNOWN
+  GT MRRs: ['85226', '85157', '85547', '85572', '85588']
+    MR#85226: Size=1197.0, Rate=4.2200, Qty=489.6
+    MR#85547: Size=1197.0, Rate=4.2200, Qty=13571.8
+    MR#85572: Size=1197.0, Rate=4.5880, Qty=991.2
+    MR#85588: Size=1197.0, Rate=4.2200, Qty=13939.2
+  Computed from GT MRRs: 4.2326 (vs GT=4.3500)
+
+  Row 45 (Film): Mat=PET, Size=1063.0, Mic=12.0, Order=G00418
+  GT: MR#=85157/85573/85330, Rate=4.5467
+  Engine: MRRs={85573: 2621.3, 85330: 253.0, 85157: 180.0}, Rate=4.5880, Supplier=UNKNOWN
+  GT MRRs: ['85157', '85573', '85330']
+    MR#85157: Size=1063.0, Rate=4.4040, Qty=1719.6
+    MR#85573: Size=1063.0, Rate=4.5880, Qty=2165.8
+  Computed from GT MRRs: 4.5066 (vs GT=4.5467)
+
+  Row 46 (Film): Mat=PET, Size=913.0, Mic=12.0, Order=N00945
+  GT: MR#=85572, Rate=4.5880
+  Engine: MRRs={85572: 376.8, 85226: 200.0}, Rate=4.4604, Supplier=UNKNOWN
+  GT MRRs: ['85572']
+    MR#85572: Size=913.0, Rate=4.5880, Qty=752.4
+  Computed from GT MRRs: 4.5880 (vs GT=4.5880)
+
+  Row 54 (Fresh2): Mat=TPE, Size=893.0, Mic=100.0, Order=N00945
+  GT: MR#=84080, Rate=4.7848
+  Engine: MRRs={84080: 131.0}, Rate=0.9000, Supplier=MEGA PACK
+  GT MRRs: ['84080']
+    MR#84080: Size=893.0, Rate=0.9000, Qty=2255.4
+  Computed from GT MRRs: 0.9000 (vs GT=4.7848)
+
+  --- Row 54: TPE Fresh2 (MR# mismatch) ---
+  Mat=TPE, Size=893.0, Mic=100.0, Order=N00945
+  GT: MR#=84080, Rate=4.7848
+  Supplier for MR#84080: MEGA PACK
+  MR#85738: Qty=1109.6, Supplier=MEGA PACK
+  MR#85775: Qty=834.0, Supplier=MEGA PACK
+  MR#84080: Qty=131.0, Supplier=MEGA PACK
+
+
+####################################################################################################
+# PART 5: NYLON miss in Nov 2025
+####################################################################################################
+  NYLON lookup (process=PRINTING): {}
+  NYLON lookup no size (process=PRINTING): {}
+  NYLON lookup (process=LAMINATION): {}
+  NYLON lookup no size (process=LAMINATION): {}
+  NYLON lookup (process=None): {}
+  NYLON lookup no size (process=None): {}
+
+  Stores columns: ['Main Group', 'Sub  Category', 'WO NO. AS PER INTIMATION', 'MIC', 'Width', 'Supplier Name', 'CORE ID', 'CORE OD', 'Length  (MTR)', 'Roll No.', 'APPLICATION', 'REC_QTY', 'Gate Entry  Date', 'Gate Entry  No.', 'M.R.R  Date']
+  Column 'Main Group' has 420 NYLON entries
+  Column 'Sub  Category' has 422 NYLON entries
+  Column 'ITEM CODE' has 422 NYLON entries
+  Column 'Column2' has 422 NYLON entries
+
+====================================================================================================
+INVESTIGATION COMPLETE
+====================================================================================================

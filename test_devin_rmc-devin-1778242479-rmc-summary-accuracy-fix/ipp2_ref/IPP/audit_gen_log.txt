@@ -1,0 +1,15 @@
+﻿python : Row 48: Fresh2 rate outlier for TPE: MRR rate=4.8708, month avg=0.9000. Using month avg.
+At line:1 char:32
++ ... PYTHONIOENCODING='utf-8'; python generate_audit_excel.py 2>&1 | Out-F ...
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Row 48: Fresh2 ...sing month avg.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+Processing Feb 2026...
+
+Processing Nov 2025...
+
+Total mismatches: 17
+
+Saved to: Mismatch_Audit_Report.xlsx

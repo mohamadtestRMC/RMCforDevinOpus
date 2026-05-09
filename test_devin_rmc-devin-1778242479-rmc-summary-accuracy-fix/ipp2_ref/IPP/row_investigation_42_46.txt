@@ -1,0 +1,280 @@
+====================================================================================================
+DETAILED INVESTIGATION: Rows 42, 43, 44, 45, 46
+====================================================================================================
+
+================================================================================
+ROW 42
+================================================================================
+  UID:     202602-1120-L
+  Process: LAM
+  Order:   L00335
+
+  --- Fresh1 (PET, Size=1197, Mic=12) ---
+    Ground Truth:  MR=85547/85588, Rate=4.22, Value=8229
+    Engine Output: MR=85547/85572/85588, Rate=4.2983019062339, Value=8381.688717156105
+    Status: *** MISMATCH ***
+
+    *** ROOT CAUSE ANALYSIS ***
+    Stores MRR discovery: {85588: 1857.7, 85547: 1809.5, 85572: 991.2, 85157: 497.8, 85226: 305.0}
+      MRR 85588 -> Supplier: JBF RAK
+      MRR 85547 -> Supplier: JBF RAK
+      MRR 85572 -> Supplier: FLEX
+      MRR 85157 -> Supplier: FLEX
+      MRR 85226 -> Supplier: JBF RAK
+
+    PR Rate breakdown per MRR:
+      MRR 85588: Qty=1857.7, PR Rate=4.22
+        PR row: Material=PET, Rate=4.22, Month=2-2026
+        PR row: Material=PET, Rate=4.22, Month=2-2026
+      MRR 85547: Qty=1809.5, PR Rate=4.22
+        PR row: Material=PET, Rate=4.22, Month=2-2026
+      MRR 85572: Qty=991.2, PR Rate=4.588
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+      MRR 85157: Qty=497.8, PR Rate=4.404
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=MET PET, Rate=5.321, Month=1-2026
+        PR row: Material=MET PET, Rate=5.321, Month=1-2026
+        PR row: Material=MET PET, Rate=5.321, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+      MRR 85226: Qty=305.0, PR Rate=4.22
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=MET PET, Rate=5.13, Month=1-2026
+        PR row: Material=MET PET, Rate=5.13, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+
+    Engine calculations:
+      Filtered MRRs (by PR):     {85588: 1857.7, 85547: 1809.5, 85572: 991.2, 85157: 497.8, 85226: 305.0}
+      Weighted rate (with size):  4.2983019062339
+      Weighted rate (no size):    4.2983019062339
+      Month avg rate (2-2026):    4.392497467033488
+
+    Ground truth MRR(s): ['85547', '85588']
+      GT MRR 85547: PR Rate=4.22, Qty=1809.5
+      GT MRR 85588: PR Rate=4.22, Qty=1857.7
+      GT weighted avg: 4.220000
+      GT actual rate:  4.22
+      --> Ground truth matches weighted avg of its own MRRs
+
+================================================================================
+ROW 43
+================================================================================
+  UID:     202602-1232-L
+  Process: LAM
+  Order:   L00335
+
+  --- Fresh1 (PET, Size=1197, Mic=12) ---
+    Ground Truth:  MR=85226/85157/85547/85572/85588, Rate=4.349971747550695, Value=14360.126733014356
+    Engine Output: MR=85547/85572/85588, Rate=4.2983019062339, Value=14189.55425285935
+    Status: *** MISMATCH ***
+
+    *** ROOT CAUSE ANALYSIS ***
+    Stores MRR discovery: {85588: 1857.7, 85547: 1809.5, 85572: 991.2, 85157: 497.8, 85226: 305.0}
+      MRR 85588 -> Supplier: JBF RAK
+      MRR 85547 -> Supplier: JBF RAK
+      MRR 85572 -> Supplier: FLEX
+      MRR 85157 -> Supplier: FLEX
+      MRR 85226 -> Supplier: JBF RAK
+
+    PR Rate breakdown per MRR:
+      MRR 85588: Qty=1857.7, PR Rate=4.22
+        PR row: Material=PET, Rate=4.22, Month=2-2026
+        PR row: Material=PET, Rate=4.22, Month=2-2026
+      MRR 85547: Qty=1809.5, PR Rate=4.22
+        PR row: Material=PET, Rate=4.22, Month=2-2026
+      MRR 85572: Qty=991.2, PR Rate=4.588
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+      MRR 85157: Qty=497.8, PR Rate=4.404
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=MET PET, Rate=5.321, Month=1-2026
+        PR row: Material=MET PET, Rate=5.321, Month=1-2026
+        PR row: Material=MET PET, Rate=5.321, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+      MRR 85226: Qty=305.0, PR Rate=4.22
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=MET PET, Rate=5.13, Month=1-2026
+        PR row: Material=MET PET, Rate=5.13, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+
+    Engine calculations:
+      Filtered MRRs (by PR):     {85588: 1857.7, 85547: 1809.5, 85572: 991.2, 85157: 497.8, 85226: 305.0}
+      Weighted rate (with size):  4.2983019062339
+      Weighted rate (no size):    4.2983019062339
+      Month avg rate (2-2026):    4.392497467033488
+
+    Ground truth MRR(s): ['85226', '85157', '85547', '85572', '85588']
+      GT MRR 85226: PR Rate=4.22, Qty=305.0
+      GT MRR 85157: PR Rate=4.404, Qty=497.8
+      GT MRR 85547: PR Rate=4.22, Qty=1809.5
+      GT MRR 85572: PR Rate=4.588, Qty=991.2
+      GT MRR 85588: PR Rate=4.22, Qty=1857.7
+      GT weighted avg: 4.303563
+      GT actual rate:  4.349971747550695
+      --> Ground truth does NOT match weighted avg of its own MRRs
+      --> Possible: manual selection or different calculation method
+
+================================================================================
+ROW 44
+================================================================================
+  UID:     202602-1355-P
+  Process: Printing
+  Order:   N00945
+
+  --- Film (PET, Size=913, Mic=12) ---
+    Ground Truth:  MR=85572/85226, Rate=4.46039944521498, Value=1426.4357425797505
+    Engine Output: MR=85226/85572, Rate=4.46039944521498, Value=1426.43574257975
+    Status: MATCH
+
+================================================================================
+ROW 45
+================================================================================
+  UID:     202602-1360-P
+  Process: Printing
+  Order:   G00418
+
+  --- Film (PET, Size=1063, Mic=12) ---
+    Ground Truth:  MR=85157/85573/85330, Rate=4.546673345774809, Value=13600.463979216185
+    Engine Output: MR=85573, Rate=4.588, Value=13724.0844
+    Status: *** MISMATCH ***
+
+    *** ROOT CAUSE ANALYSIS ***
+    Stores MRR discovery: {85573: 2621.3, 85330: 253.0, 85157: 180.0}
+      MRR 85573 -> Supplier: FLEX
+      MRR 85330 -> Supplier: JBF RAK
+      MRR 85157 -> Supplier: FLEX
+
+    PR Rate breakdown per MRR:
+      MRR 85573: Qty=2621.3, PR Rate=4.588
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+      MRR 85330: Qty=253.0, PR Rate=4.22
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+      MRR 85157: Qty=180.0, PR Rate=4.404
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+        PR row: Material=MET PET, Rate=5.321, Month=1-2026
+        PR row: Material=MET PET, Rate=5.321, Month=1-2026
+        PR row: Material=MET PET, Rate=5.321, Month=1-2026
+        PR row: Material=PET, Rate=4.404, Month=1-2026
+
+    Engine calculations:
+      Filtered MRRs (by PR):     {85573: 2621.3, 85330: 253.0, 85157: 180.0}
+      Weighted rate (with size):  4.588
+      Weighted rate (no size):    4.588
+      Month avg rate (2-2026):    4.392497467033488
+
+    Ground truth MRR(s): ['85157', '85573', '85330']
+      GT MRR 85157: PR Rate=4.404, Qty=180.0
+      GT MRR 85573: PR Rate=4.588, Qty=2621.3
+      GT MRR 85330: PR Rate=4.22, Qty=253.0
+      GT weighted avg: 4.546673
+      GT actual rate:  4.546673345774809
+      --> Ground truth matches weighted avg of its own MRRs
+
+================================================================================
+ROW 46
+================================================================================
+  UID:     202602-1474-P
+  Process: Printing
+  Order:   N00945
+
+  --- Film (PET, Size=913, Mic=12) ---
+    Ground Truth:  MR=85572, Rate=4.588, Value=587.264
+    Engine Output: MR=85226/85572, Rate=4.46039944521498, Value=570.9311289875175
+    Status: *** MISMATCH ***
+
+    *** ROOT CAUSE ANALYSIS ***
+    Stores MRR discovery: {85572: 376.8, 85226: 200.0}
+      MRR 85572 -> Supplier: FLEX
+      MRR 85226 -> Supplier: JBF RAK
+
+    PR Rate breakdown per MRR:
+      MRR 85572: Qty=376.8, PR Rate=4.588
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+        PR row: Material=PET, Rate=4.588, Month=2-2026
+      MRR 85226: Qty=200.0, PR Rate=4.22
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=MET PET, Rate=5.13, Month=1-2026
+        PR row: Material=MET PET, Rate=5.13, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+        PR row: Material=PET, Rate=4.22, Month=1-2026
+
+    Engine calculations:
+      Filtered MRRs (by PR):     {85572: 376.8, 85226: 200.0}
+      Weighted rate (with size):  4.46039944521498
+      Weighted rate (no size):    4.46039944521498
+      Month avg rate (2-2026):    4.392497467033488
+
+    Ground truth MRR(s): ['85572']
+      GT MRR 85572: PR Rate=4.588, Qty=376.8
+      GT weighted avg: 4.588000
+      GT actual rate:  4.588
+      --> Ground truth matches weighted avg of its own MRRs
