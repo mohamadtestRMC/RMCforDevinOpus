@@ -6,8 +6,6 @@ venv/
 env/
 *.log
 test_results_*.json
-*.pdf
-*.pkl
-*.xlsx
-Template_Files/
+~$*.xlsx
+~$*.xlsm
 .streamlit/

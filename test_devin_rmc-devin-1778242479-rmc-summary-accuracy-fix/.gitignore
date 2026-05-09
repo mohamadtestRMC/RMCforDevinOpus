@@ -6,13 +6,9 @@ venv/
 env/
 *.log
 test_results_*.json
-*.pdf
-*.pkl
-# Business Excel — keep out of git (large / sensitive). Override: git add -f path.xlsx
-*.xlsx
-*.xlsm
-Template_Files/
-**/output/*.xlsx
+# Office temp lock files — never commit
+~$*.xlsx
+~$*.xlsm
 .streamlit/
 
 # Nested clone under ipp2_ref — never commit inner .git object store
